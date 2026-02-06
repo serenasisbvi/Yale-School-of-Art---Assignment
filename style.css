@@ -1,0 +1,125 @@
+/* ======================================================
+   Author: Serena Sivanniah
+   External CSS for Yale School of Art Website
+   Windows-1252 encoded
+====================================================== */
+
+/* General page settings */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFEAE4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #483C32; /* Taupe for general text */
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #216540; /* Dark Beige */
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #DEC716; /* Stonish Beige */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Page headings */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+/* Cards */
+.card {
+    background-color: #216540; /* Dark Beige */
+    color: #483C32; /* Taupe text */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    color: #DEC716; /* Stonish Beige for headings inside cards */
+}
+
+/* Lists */
+ul, ol {
+    margin: 15px 0 15px 40px;
+}
+
+/* Google Map card */
+.map-card {
+    background-color: #216540;
+    color: #483C32;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+/* Video card */
+.video-card {
+    background-color: #216540;
+    color: #483C32;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 14px;
+    color: #216540;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}
